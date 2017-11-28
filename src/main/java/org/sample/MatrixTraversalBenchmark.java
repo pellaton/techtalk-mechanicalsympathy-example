@@ -70,7 +70,7 @@ public class MatrixTraversalBenchmark {
   @BenchmarkMode(Throughput)
   @Warmup(iterations = JMH_WARMUP_ITERATIONS, time = JMH_WARMUP_TIME)
   @Measurement(iterations = JMH_MEASUREMENT_ITERATIONS, time = JMH_MEASUREMENT_TIME)
-  public int findMaxValueInLinkedListYthenX() {
+  public int findMaxValueInLinkedListXthenY() {
 
     int result = Integer.MIN_VALUE;
 
@@ -87,7 +87,7 @@ public class MatrixTraversalBenchmark {
   @BenchmarkMode(Throughput)
   @Warmup(iterations = JMH_WARMUP_ITERATIONS, time = JMH_WARMUP_TIME)
   @Measurement(iterations = JMH_MEASUREMENT_ITERATIONS, time = JMH_MEASUREMENT_TIME)
-  public int findMaxValueInLinkedListXthenY() {
+  public int findMaxValueInLinkedListYthenX() {
 
     int result = Integer.MIN_VALUE;
 
@@ -104,7 +104,7 @@ public class MatrixTraversalBenchmark {
   @BenchmarkMode(Throughput)
   @Warmup(iterations = JMH_WARMUP_ITERATIONS, time = JMH_WARMUP_TIME)
   @Measurement(iterations = JMH_MEASUREMENT_ITERATIONS, time = JMH_MEASUREMENT_TIME)
-  public int findMaxValueInArrayListYthenX() {
+  public int findMaxValueInArrayListXthenY() {
 
     int result = Integer.MIN_VALUE;
 
@@ -121,7 +121,7 @@ public class MatrixTraversalBenchmark {
   @BenchmarkMode(Throughput)
   @Warmup(iterations = JMH_WARMUP_ITERATIONS, time = JMH_WARMUP_TIME)
   @Measurement(iterations = JMH_MEASUREMENT_ITERATIONS, time = JMH_MEASUREMENT_TIME)
-  public int findMaxValueInArrayListXthenY() {
+  public int findMaxValueInArrayListYthenX() {
 
     int result = Integer.MIN_VALUE;
 
